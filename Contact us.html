@@ -1,0 +1,105 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+
+	<Title>May's Restaurant</title>
+	<link href="Restaurant.css" rel="stylesheet" type="text/css" /> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+		</head>
+<body>
+    <main> 
+		<p id="blur">Contact Us </p>
+            <header><h1>May's Restaurant</h1></header>
+			<hr />
+		
+			<ul class= "nav nav-pills ">
+			<li> <a class="btn" href="home.html"><i class="fas fa-home"></i></a></li> 			
+			<li><a class="btn" href="Menu.html">Menu</a></li>   
+			<li><a class="btn" href="Contact Us.html">Contact Us</a></li>
+			</ul>
+			</div>
+				<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+				<link href="restaurantStyles.css" rel="stylesheet" type="text/css" /> 
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+			<hr/>
+			<style>
+			div {
+				margin-bottom: 10px;
+				padding-left: 400px;
+				padding-right: 200px;
+				text-align: left;
+				}
+			label { text-align: left
+				}
+			#blur {
+				font-size: 15px;
+				color: darkgrey;
+				text-shadow: 0 0 1.5px #000;
+				}
+			.btn:hover {
+				font-weight: bold;
+				color: red;
+						}
+			</style>
+			<div>
+			<label for ="Name:">Name:</label>
+			<input type="textbox" name="Name"/><br />
+			</div>
+			<div>
+			<label for="Email">Email:</label>
+			<input type=""textbox" name="Email"/><br />
+			</div>
+			<div>
+			<label for="Phone">Phone:</label>
+			<input type="textbox" name="Phone"/><br />
+			</div>
+			<div>
+			<label for="Reason for Inquiry:">Reason for Inquiry:</label>
+			<select id="Items in drop-down" name="Item in drop-down:">
+			</div>
+			<div>
+			<option value="Items in drop-down" selected>--Item in drop-down:--</option>
+			<option value="Catering (default)"> Catering</option>
+			<option value="Private Party"> Private Party</option>
+			<option value="Feedback">Feedback</option>
+			<option value="Other">Other</option>
+			</select><br />
+			</div>
+			<form method="POST" action="form-handler" onsubmit="return checkForm(this);">
+			<p style=" margin-left:280px">Additional Information:: <input type="text" size="32" name="inputfield">
+			</form>
+			<div>
+			<legend>Have you been to the restaurant?
+			<input type="radio" id="choice1" name="questionnaire" value="yes">
+			<label for="choice1">yes</label>
+			<input type="radio" id="choice2" name="questionnaire" value="no">
+			<label for="choice2">no</label><br />
+			</div>
+			<div>
+			<legend>Best days to contact you:
+			<input type="checkbox" id="M" name="date" value="1" min="1" max="2">
+			<label for="M">M</label>
+			<input type="checkbox" id="T" name="date" value="1" min="1" max="2">
+			<label for="T">T</label>
+			<input type="checkbox" id="W" name="date" value="1" min="1" max="2">
+			<label for="W">W</label>
+			<input type="checkbox" id="Th" name="date" value="1" min="1" max="2">
+			<label for="Th">Th</label>
+			<input type="checkbox" id="F" name="date" value="1" min="1" max="2">
+			<label for="F">F</label>
+			<br />
+			</div>
+			</legend>
+			<div style="padding-left: 500px">
+			<button style="text-align: center">Submit</button> 
+			</div>
+		<hr />
+		 <footer><p>5 Buttermill Ave, concord, ON, CA, L4K 0J5</p>
+		 <p>+164999999</p>
+		 </footer>
+		 <hr /> 
+	</main>
+</body>
+</html>
